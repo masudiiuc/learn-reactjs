@@ -32,4 +32,4 @@ var Boom = React.createClass({
 
 });
 
-React.render(<Boom />, document.body);
+React.render(<Boom />, document.getElementById('boom'));
