@@ -3,27 +3,29 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello React</title>
+    <title>React Task Board</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/task.css">
+
+    <!-- react core files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+
+    <!-- jQuery Support for React aplication -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- react boostrap -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.25.2/react-bootstrap.min.js"></script>
+
+    <script type="text/jsx" src="jsx/todo.jsx"></script>
   </head>
-  <body>
-    <div id="content"></div>
-    <script type="text/jsx">
-      var CommentBox = React.createClass({
-        render: function() {
-          return (
-            <div className="commentBox">
-              Hello, world! I am a CommentBox.
-            </div>
-          );
-        }
-      });
-      React.render(
-        <CommentBox />,
-        document.getElementById('content')
-      );
-    </script>
+  <body >
+    <div id="header"></div>
+
+    <div id="container">
+      
+    </div>
+    
   </body>
 </html>

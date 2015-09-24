@@ -1,5 +1,5 @@
 /** @jsx React.DOM */
-
+r
 var React = require('react');
 
 var Boom = React.createClass({
